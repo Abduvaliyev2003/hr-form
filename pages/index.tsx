@@ -126,7 +126,7 @@ const Home: NextPage = () => {
                             flexDirection={{ base: "column", md: "row" }}
                             mb={'2rem'}
                         >
-                            <Image alt="PortretHR" src={logo.src} />
+                            <Image alt="yalpizHR" height={350} width={`100%`} borderRadius={12}  src={logo.src} />
                             {/*<Text fontSize={'2rem'} fontWeight={'bold'}>Portret HR</Text>*/}
                             {/*<Flex>*/}
                                 {/*<svg id="info" width="100%" height="100%">*/}
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
                     </div>
                     <div data-aos="fade-up">
                         <Text>
-                            "Portret HR" ga ishga kirish uchun
+                            "Yalpiz HR" ga ishga kirish uchun
                             ushbu so'rovnomani to'ldiring. Sizning nomzodingiz
                             bizga ma'qul kelsa biz siz bilan bog'lanamiz.
                         </Text>
