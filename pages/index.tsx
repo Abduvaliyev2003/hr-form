@@ -40,7 +40,7 @@ const Home: NextPage = () => {
     const { answers } = useSelector((state) => state.answer);
     const dispatch = useDispatch();
 
-    const answersCount = 13;
+    const answersCount = 11;
     const router = useRouter();
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { id, fileUrl } = useSelector((state) => state.id);
