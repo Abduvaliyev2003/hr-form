@@ -45,7 +45,8 @@ const Questions = () => {
                         required={quest.required}
                         title={quest.title}
                     >
-                        {quest.type === "radio" ? (
+{
+/*                         {quest.type === "radio" ? (
                             <RadioGroup name={quest.name}>
                                 <VStack alignItems="start" my={4} mb={2}>
                                     {quest.radios?.map((radio, index) => (
@@ -85,7 +86,8 @@ const Questions = () => {
                                     ) : null}
                                 </VStack>
                             </RadioGroup>
-                        ) : quest.type === "input" ? (
+                        ) : */}
+                        quest.type === "input" ? ( 
                             <VStack alignItems="start" my={4}>
                                 {quest.inputs?.map((input, index) => (
                                     <QuestionInput
