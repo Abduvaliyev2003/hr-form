@@ -40,7 +40,6 @@ const convertObjectToMessage = (object: object): string => {
 const converters: any = {
     id: "user_id",
     ism: "Ism-sharifingiz:",
-    vakansiya: "Qaysi vakansiga bo`yicha?",
     tugilgan_sana: "Tug'ilgan sanangiz:",
     yashash_manzil: "Hozirgi yashash manzilingiz:",
     soha: "Qaysi soha bo'yicha ishga joylashmoqchisiz?",
@@ -49,7 +48,6 @@ const converters: any = {
     maosh_xoxish: "Qancha maosh xohlaysiz?",
     // motivatsiya: "Nimalardan ruhlanasiz?",
     // salomlashish: "Begona odam bilan qanday salomlashasiz?",
-    aynan_siz_sabab: "Nega aynan sizni ishga olishimiz kerak deb hisoblaysiz?",
     // komp_dasturlar:
     //     "Kompyuter dasturlaridan qaysilarini bilasiz? (word, excel, trello va h.k. lar)",
     // ctrl_x_nima: "Ctrl+X qanday vazifani bajaradi?",

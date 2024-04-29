@@ -1,13 +1,5 @@
 [    
     {
-        "title": "Qaysi vakansiga bo`yicha?",
-        "name": "vakansiya",
-        "required": true,
-        "type": "input",
-        "input_type": "text",
-        "inputs": ["Qaysi vakansiga bo`yicha..."]
-    },
-    {
         "title": "Ism-sharifingiz:",
         "name": "ism",
         "required": true,
@@ -88,15 +80,6 @@
         "input_type": "number",
         "inputs": ["Maosh"]
     },
-    {
-        "title": "Nega aynan sizni ishga olishimiz kerak deb hisoblaysiz?",
-        "name": "aynan_siz_sabab",
-        "required": true,
-        "type": "input",
-        "input_type": "text",
-        "inputs": ["Nega aynan siz?"]
-    },
-    
     {
         "title": "Ishlashdan maqsad nima deb o'ylaysiz?",
         "name": "ishlashdan_maqsad",
