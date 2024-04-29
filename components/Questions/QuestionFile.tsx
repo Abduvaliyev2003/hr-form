@@ -31,7 +31,7 @@ const QuestionFile = ({ name, type, children }: QuestionFileProps) => {
                 token: id,
             };
             // console.log(body);
-            let u = `https://api.jobo.uz/v1/_utils/portret-hr/store-file`;
+            let u = `https://api.jobo.uz/v1/_utils/yalpiz/store-file`;
             let telegramUrl = `https://api.telegram.org/bot${TOKEN}/sendDocument?chat_id=${chat_id}`;
             await axios({
                 method: "POST",

@@ -70,7 +70,7 @@ const Home: NextPage = () => {
 
             let telegramUrl = `https://api.telegram.org/bot${TOKEN}/sendDocument?chat_id=${chat_id}`;
 
-            let baseUrl = "https://api.jobo.uz/v1/_utils/portret-hr/store-data";
+            let baseUrl = "https://api.jobo.uz/v1/_utils/yalpiz/store-data";
 
             fileUrl
                 ? await axios({
