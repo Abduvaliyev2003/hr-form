@@ -45,7 +45,7 @@ const Questions = () => {
                         required={quest.required}
                         title={quest.title}
                     >
-                   { quest.type === "input" ? ( 
+                        {quest.type === "input" ? (
                             <VStack alignItems="start" my={4}>
                                 {quest.inputs?.map((input, index) => (
                                     <QuestionInput
@@ -63,58 +63,6 @@ const Questions = () => {
                                     name={quest.name}
                                     type={quest.input_type}
                                 />
-                            </>
-                        ) : quest.type === "checkbox" ? (
-                            <>
-                                <CheckboxGroup>
-                                    <Stack spacing={[1]} direction={["column"]}>
-                                        {quest.radios?.map((input, index) => (
-                                            <QuestionCheckbox
-                                                name={quest.name}
-                                                key={index}
-                                            >
-                                                {input}
-                                            </QuestionCheckbox>
-                                        ))}
-                                        {quest.mix ? (
-                                            <>
-                                                <Checkbox
-                                                    name={quest.name}
-                                                    colorScheme="blue"
-                                                    value={langs}
-                                                    onChange={({
-                                                        target,
-                                                    }: QuestionRadioEventProps) =>
-                                                        dispatch(
-                                                            pushCheckbox(target)
-                                                        )
-                                                    }
-                                                    borderColor={"blue.300"}
-                                                >
-                                                    Boshqa tillar:
-                                                </Checkbox>
-                                                <Input
-                                                    placeholder={"Boshqa..."}
-                                                    // colorScheme={"red"}
-                                                    borderColor={
-                                                        "rgba(0,0,0 0.5)"
-                                                    }
-                                                    variant={"flushed"}
-                                                    w="full"
-                                                    // name={quest.name}
-                                                    _placeholder={{
-                                                        color: "black",
-                                                        opacity: "0.5",
-                                                    }}
-                                                    type={"input"}
-                                                    onChange={(e) =>
-                                                        setLangs(e.target.value)
-                                                    }
-                                                />
-                                            </>
-                                        ) : null}
-                                    </Stack>
-                                </CheckboxGroup>
                             </>
                         ) : quest.type === "file" ? (
                             <>
