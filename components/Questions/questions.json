@@ -1,0 +1,116 @@
+[    
+    {
+        "title": "Qaysi vakansiga bo`yicha?",
+        "name": "vakansiya",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Qaysi vakansiga bo`yicha..."]
+    },
+    {
+        "title": "Ism-sharifingiz:",
+        "name": "ism",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Ism familyangiz"]
+    },
+    {
+        "title": "Tug'ilgan sanangiz:",
+        "name": "tugilgan_sana",
+        "required": true,
+        "type": "input",
+        "input_type": "date",
+        "inputs": ["Tug'ilgan san"]
+    },
+    {
+        "title": "Hozirgi yashash manzilingiz:",
+        "name": "yashash_manzil",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Yashash manzil"]
+    },
+    {
+        "title": "Qayerlarda ishlagansiz?",
+        "name": "oxirgi_ish_joy",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Oxirgi ish joyingiz..."]
+    },
+    {
+        "title": "Oxirgi ish joyingizdan bo'shashingizga nima sabab bo'lgan?",
+        "name": "oxirgi_ish_sabab",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Sabablar..."]
+    },
+    {
+        "title": "Qancha maosh xohlaysiz?",
+        "name": "maosh_xoxish",
+        "required": true,
+        "type": "input",
+        "input_type": "number",
+        "inputs": ["Maosh"]
+    },
+    {
+        "title": "Nega aynan sizni ishga olishimiz kerak deb hisoblaysiz?",
+        "name": "aynan_siz_sabab",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Nega aynan siz?"]
+    },
+    
+    {
+        "title": "Ishlashdan maqsad nima deb o'ylaysiz?",
+        "name": "ishlashdan_maqsad",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Ishlashdan maqsad..."]
+    },
+    {
+        "title": "Hozir qayerda ishlayapiz/ o‘qiyapsiz?",
+        "name": "hozir_qayer_ishlayapiz",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Hozir qayerda..."]
+    },
+    {
+        "title": "Restaran sohasida tajribangiz?",
+        "name": "restaran_sohasida_tajriba",
+        "required": true,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Restaran sohasida..."]
+    }, 
+    
+    {
+        "title": "Portfolio uchun link:",
+        "name": "portfolio_link",
+        "required": false,
+        "type": "input",
+        "input_type": "text",
+        "inputs": ["Protfolio link..."]
+    },
+    {
+        "title": "Portfolio, rezyumengiz bo'lsa qoldiring:",
+        "name": "rezyume",
+        "required": false,
+        "type": "file",
+        "input_type": "file",
+        "inputs": ["Faylni tanlang"]
+    },
+    {
+        "title": "Telefon raqamingiz:",
+        "name": "telefon_raqam",
+        "required": true,
+        "type": "input",
+        "input_type": "tel",
+        "inputs": ["Telefon raqamingiz..."]
+    }
+]
