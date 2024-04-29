@@ -40,7 +40,7 @@ const Home: NextPage = () => {
     const { answers } = useSelector((state) => state.answer);
     const dispatch = useDispatch();
 
-    const answersCount = 12;
+    const answersCount = 13;
     const router = useRouter();
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { id, fileUrl } = useSelector((state) => state.id);
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
     const redirectResultPage = async () => {
         setMessage(null);
         setLoading(true);
-
+         console.log(answers.length)
         if (answers.length < answersCount) {
             setMessage("Iltimos barcha savollarga javob bering!");
         } else {

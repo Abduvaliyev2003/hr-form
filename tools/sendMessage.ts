@@ -43,7 +43,7 @@ const converters: any = {
     vakansiya: "Qaysi vakansiga bo`yicha?",
     tugilgan_sana: "Tug'ilgan sanangiz:",
     yashash_manzil: "Hozirgi yashash manzilingiz:",
-    // soha: "Qaysi soha bo'yicha ishga joylashmoqchisiz?",
+    soha: "Qaysi soha bo'yicha ishga joylashmoqchisiz?",
     oxirgi_ish_sabab:
         "Oxirgi ish joyingizdan bo'shashingizga nima sabab bo'lgan?",
     maosh_xoxish: "Qancha maosh xohlaysiz?",
@@ -60,5 +60,4 @@ const converters: any = {
     // instagram_user: "Instagram username'ingiz:",
     telefon_raqam: "Telefon raqamingiz:",
     oxirgi_ish_joy: "Oxirgi ish joyingiz?",
-    portfolio_link: "Portfolio link"
 };

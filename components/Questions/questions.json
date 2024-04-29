@@ -32,6 +32,39 @@
         "inputs": ["Yashash manzil"]
     },
     {
+        "title": "Qaysi soha bo'yicha ishga joylashmoqchisiz?",
+        "name": "soha",
+        "required": true,
+        "type": "checkbox",
+        "mix": false,
+        "radios": [
+            {
+                "quiz": "Menejer"
+            },
+            {
+                "quiz": "Xostes"
+            },
+            {
+                "quiz": "Afitsiant"
+            },
+            {
+                "quiz": "Oshpaz yordamchisi"
+            },
+            {
+                "quiz": "Barmen"
+            },
+            {
+                "quiz": "Pasuda moyka"
+            },
+            {
+                "quiz": "Uborka"
+            },
+            {
+                "quiz": "Rayner"
+            }
+        ]
+    },
+    {
         "title": "Qayerlarda ishlagansiz?",
         "name": "oxirgi_ish_joy",
         "required": true,
@@ -88,18 +121,9 @@
         "input_type": "text",
         "inputs": ["Restaran sohasida..."]
     }, 
-    
     {
-        "title": "Portfolio uchun link:",
-        "name": "portfolio_link",
-        "required": false,
-        "type": "input",
-        "input_type": "text",
-        "inputs": ["Protfolio link..."]
-    },
-    {
-        "title": "Portfolio, rezyumengiz bo'lsa qoldiring:",
-        "name": "rezyume",
+        "title": "Rasmingizni qoldiring:",
+        "name": "rasm",
         "required": false,
         "type": "file",
         "input_type": "file",
