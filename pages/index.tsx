@@ -147,7 +147,7 @@ const Home: NextPage = () => {
                     </div>
                     <div data-aos="fade-up">
                         <Text>
-                            "Yalpiz HR" ga ishga kirish uchun
+                            "Yalpiz" ga ishga kirish uchun
                             ushbu so'rovnomani to'ldiring. Sizning nomzodingiz
                             bizga ma'qul kelsa biz siz bilan bog'lanamiz.
                         </Text>
