@@ -45,47 +45,7 @@ const Questions = () => {
                         required={quest.required}
                         title={quest.title}
                     >
-                   {quest.type === "radio" && quest.radios ? (
-                            <RadioGroup name={quest.name}>
-                                <VStack alignItems="start" my={4} mb={2}>
-                                    {quest.radios?.map((radio, index) => (
-                                        <QuestionRadio key={index}>
-                                            {radio}
-                                        </QuestionRadio>
-                                    ))}
-                                    {quest.mix ? (
-                                        <Flex gap={"5px"}>
-                                            <Radio
-                                                colorScheme="blue"
-                                                value={other + 0}
-                                                name={quest.name}
-                                                onChange={({
-                                                    target,
-                                                }: QuestionRadioEventProps) =>
-                                                    dispatch(push(target))
-                                                }
-                                                borderColor={"blue.300"}
-                                            >
-                                                Boshqa
-                                            </Radio>
-                                            <Input
-                                                borderColor={"rgba(0,0,0 0.5)"}
-                                                variant={"flushed"}
-                                                w="full"
-                                                _placeholder={{
-                                                    color: "black",
-                                                    opacity: "0.5",
-                                                }}
-                                                type={"input"}
-                                                onChange={(e) =>
-                                                    setOther(e.target.value)
-                                                }
-                                            />
-                                        </Flex>
-                                    ) : null}
-                                </VStack>
-                            </RadioGroup>
-                        ) : quest.type === "input" ? ( 
+                   { quest.type === "input" ? ( 
                             <VStack alignItems="start" my={4}>
                                 {quest.inputs?.map((input, index) => (
                                     <QuestionInput
